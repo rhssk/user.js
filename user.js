@@ -852,6 +852,9 @@ user_pref("browser.shell.shortcutFavicons",					false);
 // http://kb.mozillazine.org/Browser.bookmarks.max_backups
 user_pref("browser.bookmarks.max_backups", 0);
 
+// PREF: Don't close bookmark menu when opening bookmarks
+user_pref("browser.bookmarks.openInTabClosesMenu", false);
+
 /*******************************************************************************
  * SECTION: UI related                                                         *
  *******************************************************************************/
