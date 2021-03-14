@@ -203,6 +203,9 @@ user_pref("javascript.options.wasm",				false);
  * SECTION: Misc                                                              *
  ******************************************************************************/
 
+// PREF: Don't quit the browser when Ctrl + Q is pressed (FF>=87)
+user_pref("browser.quitShortcut.disabled",		true);
+
 // PREF: Disable face detection
 user_pref("camera.control.face_detection.enabled",		false);
 
